@@ -1,0 +1,8 @@
+This is a simple made project on Visual Studio executing a similar function like SQL. In the first input loop,
+we write down the data of all the IP address buyers (their first and last name, the ip address they are buying and their mobile number).
+Once the information about them is valid, the data is stored in the program.
+After we are done with all the inputs, we can check the results in the second loop.
+There are several commands to do that:
+- "Show IPs" - Shows all of the ip addresses we sold from each class.
+- "Show IPs count" - Shows the count of all the ip addresses that we sold.
+- "Show database" - Shows the stored data with all the information.
