@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace IPCostumers
+namespace IPCustomers
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            List<Costumer> costumers = new List<Costumer>();
+            List<Customer> costumers = new List<Customer>();
             Regex fName = new Regex(@"[A-Z][a-z]+");
             Regex lName = new Regex(@"[A-Z][a-z]+");
 
@@ -31,7 +31,7 @@ namespace IPCostumers
             while (input != "Stop")
             {
                 string[] tokens = input.Split();
-                Costumer currCostumer = new Costumer();
+                Customer currCostumer = new Customer();
                 // First name check!
                 try
                 {
