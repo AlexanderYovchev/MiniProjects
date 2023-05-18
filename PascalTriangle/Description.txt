@@ -1,0 +1,20 @@
+This task is from CodeWars. There are two input integers given.
+The triangle would be built, based on the size of the integer (n) that is given.
+The target of this task is to sum all of the numbers of a given diagonal.
+
+The integer (n) represents the length of the sides of the triangle (Since the triangle is isosceles).
+The integer (p) represents positions of the diagonal that we want to sum all of its indexes.
+
+Here's an example:
+int n = 3;
+int p = 2;
+
+The triangle would look like this:	1
+				       1 1	
+				      1 2 1
+				     1 3 3 1
+
+NOTE: We always start from index 0.
+In this case the diagonal (p) contains 1 and 3.
+So the result would be:
+int sum = 3 + 1 = 4.
